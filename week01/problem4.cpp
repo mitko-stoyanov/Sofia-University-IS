@@ -2,15 +2,15 @@
 using namespace std;
 int main()
 {
-    int number, first_digit, second_digit, third_digit, sum;
+    int number, firstDigit, secondDigit, thirdDigit, sum;
     cin>>number;
-    first_digit = number % 10;
-    second_digit = (number / 10) % 10;
-    third_digit = number / 100;
-    sum = first_digit + second_digit + third_digit;
-    cout<<third_digit<<endl;
-    cout<<second_digit<<endl;
-    cout<<first_digit<<endl;
+    firstDigit = number % 10;
+    secondDigit = (number / 10) % 10;
+    thirdDigit = number / 100;
+    sum = firstDigit + secondDigit + thirdDigit;
+    cout<<thirdDigit<<endl;
+    cout<<secondDigit<<endl;
+    cout<<firstDigit<<endl;
     cout<<"The sum is: "<<sum<<endl;
     return 0;
 }
