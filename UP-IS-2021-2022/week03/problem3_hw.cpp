@@ -2,7 +2,8 @@
 using namespace std;
 int main()
 {
-    int a, b, c, doesExist;
+    int a, b, c;
+    bool doesExist = false;
     string triangleType = "";
     cout<<"Enter three numbers: ";
     cin>>a>>b>>c;
